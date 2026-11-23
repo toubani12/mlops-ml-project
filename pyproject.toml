@@ -1,0 +1,25 @@
+[project]
+name = "mlops-ml-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "BADR EDDINE TOUBANI", email = "158719657+toubani12@users.noreply.github.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "joblib>=1.6.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2.4.6",
+    "pandas>=3.1.1",
+    "pytest>=9.2.0",
+    "pyyaml>=6.0.4",
+    "scikit-learn>=1.9.1",
+]
+
+[project.scripts]
+mlops-ml-project = "mlops_ml_project:main"
+
+[build-system]
+requires = ["uv_build>=0.13.4,<0.14.0"]
+build-backend = "uv_build"
